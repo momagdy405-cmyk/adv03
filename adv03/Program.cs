@@ -147,7 +147,6 @@
             browserhistory.Push("claude ai.com");
 
             Console.WriteLine($"the current page: {browserhistory.Peek()}");
-
             for(int i=0;i<3;i++)
             {
                 string s = browserhistory.Pop();
